@@ -1,0 +1,105 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    text-align: end;
+  
+}
+.navbar i{
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+    color: rgb(76, 72, 92);
+}  
+.navbar p {
+    padding: 4px 15px 0px 15px;
+    border: transparent 5px;
+} 
+.navbar p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.navbar i:hover{
+    cursor: pointer;
+    
+
+}
+
+.A {
+    color: white;
+    position: relative;
+    right: 43px;
+    top: 2px;
+    font-weight: 700;
+}
+#icon {
+    color: rgb(175, 175, 175);
+}
+
+
+
+#searchbar {
+width: 800px;
+height: 40px;
+border: none;
+}
+
+#govde {
+    height: 40vh;
+    margin-top: 15%;
+}
+.searcher {
+    border-radius: 50px;
+    background-color: white;
+    border: solid rgb(175, 175, 175) 1px;
+    position: relative 0 20; 
+}
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50px;
+    width: 580px;
+
+}
+#searchbar:focus {
+    outline: transparent;
+}
+.src-icn {
+    padding: 25px 0px 0px 45px;
+}
+.search i {
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ara {
+    margin: 20px 10px;
+    width: auto;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+}
+.ara:hover{
+    
+    border: solid rgb(175, 175, 175) 1px;
+    box-shadow: rgb(175, 175, 175) 5px;
+}
+.eng {
+    color: blue;
+    padding: 0px 7px;
+}
+.eng:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
